@@ -1,0 +1,5 @@
+# LungCancer_LabIACD
+
+The Dataset can be downloaded from this website: https://cancerimagingarchive.net/analysis-result/dicom-lidc-idri-nodules/ .
+
+This dataset contains a standardized DICOM representation of the annotations and characterizations collected by the LIDC/IDRI initiative, originally stored in XML. Only the nodules that were deemed to be greater or equal to 3 mm in the largest planar dimensions have been annotated and characterized by expert radiologists performing the annotations. Only those nodules are included in the present dataset. The conversion was enabled by the pylidc library https://pylidc.github.io/ (parsing of XML, volumetric reconstruction of the nodule annotations, clustering of the annotations belonging to the same nodule, calculation of the volume, surface area and largest diameter of the nodules) and the dcmqi library https://github.com/qiicr/dcmqi (storing of the annotations into DICOM Segmentation objects, and storing of the characterizations and measurements into DICOM Structured Reporting objects). The script used for the conversion is available at https://github.com/qiicr/lidc2dicom .
