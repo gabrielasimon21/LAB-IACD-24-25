@@ -25,3 +25,9 @@ and then run:
 pip install pyradiomics
 ```
 
+## Work developed by
+
+- Ana Catarina Ribeiro, 202107885
+- Estefany Vasconcelos, 202106661
+- Gabriela de Cenço, 202200209
+- Noa Santos, 202201392
