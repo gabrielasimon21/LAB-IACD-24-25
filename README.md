@@ -1,5 +1,27 @@
 # LungCancer_LabIACD
 
-The Dataset can be downloaded from this website: https://cancerimagingarchive.net/analysis-result/dicom-lidc-idri-nodules/ .
+## Description
+The LIDC-IDRI dataset is a lung cancer screening resource that includes thoracic CT scans from 1,010 patients. It contains annotated lung nodules categorized into three groups: (a) nodules with a diameter of 3 mm or larger, (b) nodules smaller than 3 mm, and (c) non-nodules that are 3 mm or larger. These annotations were produced through a two-phase review process conducted by four experienced radiologists.
+We will be using these images as input data, for Lung Cancer classification and we will be developing a Data Science-based solution.
 
-This dataset contains a standardized DICOM representation of the annotations and characterizations collected by the LIDC/IDRI initiative, originally stored in XML. Only the nodules that were deemed to be greater or equal to 3 mm in the largest planar dimensions have been annotated and characterized by expert radiologists performing the annotations. Only those nodules are included in the present dataset. The conversion was enabled by the pylidc library https://pylidc.github.io/ (parsing of XML, volumetric reconstruction of the nodule annotations, clustering of the annotations belonging to the same nodule, calculation of the volume, surface area and largest diameter of the nodules) and the dcmqi library https://github.com/qiicr/dcmqi (storing of the annotations into DICOM Segmentation objects, and storing of the characterizations and measurements into DICOM Structured Reporting objects). The script used for the conversion is available at https://github.com/qiicr/lidc2dicom .
+## Versions
+
+To run the notebook, we used the following operating system version:
+- Windows 11 Home
+
+Python version:
+- Python 3.11.10
+
+## How to run
+
+To install the requirements, run:
+```
+pip install -r requirements.txt
+```
+
+and then run:
+
+```
+pip install pyradiomics
+```
+
