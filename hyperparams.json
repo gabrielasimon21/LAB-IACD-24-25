@@ -1,0 +1,48 @@
+{
+    "randomForest": {
+        "model": "RandomForestClassifier",
+        "params": {
+            "bootstrap": false,
+            "max_depth": 20,
+            "min_samples_leaf": 2,
+            "min_samples_split": 5,
+            "n_estimators": 300
+        }
+    },
+    "gradientBoosting": {
+        "model": "GradientBoostingClassifier",
+        "params": {
+            "learning_rate": 0.05,
+            "max_depth": 5,
+            "min_samples_leaf": 2,
+            "min_samples_split": 2,
+            "n_estimators": 200
+        }
+    },
+    "supportVectorClassifier": {
+        "model": "SVC",
+        "params": {
+            "C": 100,
+            "gamma": "scale",
+            "kernel": "rbf"
+        }
+    },
+    "kNeighbors": {
+        "model": "KNeighborsClassifier",
+        "params": {
+            "metric": "manhattan",
+            "n_neighbors": 7,
+            "weights": "distance"
+        }
+    },
+    "decisionTree": {
+        "model": "DecisionTreeClassifier",
+        "params": {
+            "criterion": "gini",
+            "max_depth": 10,
+            "min_samples_leaf": 1,
+            "min_samples_split": 2,
+            "splitter": "random"
+        }
+    }
+}
