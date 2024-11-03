@@ -1,0 +1,17 @@
+# Legal and Ethical implications of the use of the LIDC-IDRI dataset
+
+With the increase of the use of artificial intelligence in the medical industry, it is necessary to ponder what are the possible legal and ethical implications of the use of datasets that contain medical diagnoses as well as information about patients. In this project, the Lung Image Database Consortium and Image Database Resource Initiative (LIDC-IDRI) dataset was used. This dataset is publicly available on the internet for download and for use for commercial, scientific and educational purposes and it consists of CT scans of lung nodules, along with annotations made by physicians that indicate levels of malignancy of the nodules, as well as other relevant information. In this sense, the project developed by our group has the objective of training a machine learning model to identify nodules that can potentially indicate lung cancer in CT scans. 
+
+However, the use of this type of data raises both legal and ethical concerns, that must be considered to ensure patient privacy, maintain data security and ensure responsible research practices.
+
+The LIDC-IDRI dataset is a de-identified dataset, which means it does not contain any information that would make it possible to identify the patients, as well consisting of CT images of patients that agreed to share their data to promote cancer research. However, it is necessary to consider that re-identification of data by linkage is a real concern when handling this type of sensitive data, which can lead to serious legal implications. Nevertheless, in this project we have come to the conclusion that with the information that we extract from the data to train our model, that is not possible to re-identify patients, in that way, protecting their privacy and ensuring the data will be used ethically. 
+
+This project also has the intent of clearly stating that LIDC-IDRI is the dataset being used for this research, thus ensuring transparency. The explicit acknowledgement of the dataset source ensures that patients included in the dataset can easily find that their information is being used for educational purposes with a simple online search. 
+
+Furthermore, one important thing to consider is the possible impacts of a project like this. It is of extreme importance that the conclusions reached with this project are not regarded as definitive, given that it is a project developed by university students in a limited timeframe. For this work to become a reliable diagnostic tool in the medical community, extensive validation and further testing are necessary to ensure accuracy, reliability and the ethical use of a project like this one.
+
+In conclusion, while the LIDC-IDRI dataset provides a valuable resource for the advancement of the use of AI models in medicine, it is of extreme importance to consider legal and ethical responsibilities when using it. This project was developed by university students and should be taken as it is, not excluding the possibility of further improvements in the future. By recognizing the importance of protecting patient privacy, data security and transparency, we aim to contribute responsibly to the growing conversation around AI in healthcare. 
+
+
+
+Group participants: Ana Catarina Fernandes Ribeiro (202107885), Estefany Andreina Camacho Vasconcelos (202106661), Gabriela Simon de Cenço (202200209) and Noa Cajila Fraga dos Santos (202201392)
