@@ -1,0 +1,10 @@
+numpy==1.23
+pandas
+pylidc
+SimpleITK
+scikit-learn
+imbalanced-learn
+matplotlib
+seaborn
+time
+json
