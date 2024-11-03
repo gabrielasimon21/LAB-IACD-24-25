@@ -1,0 +1,80 @@
+Melhores parâmetros para randomForest: {'bootstrap': False, 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 300}
+Melhor score para randomForest: 0.9061484745907048
+Relatório de classificação para randomForest:
+              precision    recall  f1-score   support
+
+           0       0.92      0.90      0.91       356
+           1       0.74      0.79      0.76       132
+
+    accuracy                           0.87       488
+   macro avg       0.83      0.84      0.83       488
+weighted avg       0.87      0.87      0.87       488
+
+randomForest - Acurácia: 0.8668032786885246
+randomForest - Precisão: 0.8701546666881105
+randomForest - Recall: 0.8668032786885246
+Tempo total para randomForest: 338.00 segundos
+Melhores parâmetros para gradientBoosting: {'learning_rate': 0.05, 'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}
+Melhor score para gradientBoosting: 0.913974580060037
+Relatório de classificação para gradientBoosting:
+              precision    recall  f1-score   support
+
+           0       0.93      0.90      0.91       356
+           1       0.75      0.81      0.78       132
+
+    accuracy                           0.88       488
+   macro avg       0.84      0.86      0.85       488
+weighted avg       0.88      0.88      0.88       488
+
+gradientBoosting - Acurácia: 0.8770491803278688
+gradientBoosting - Precisão: 0.8806193552864614
+gradientBoosting - Recall: 0.8770491803278688
+Tempo total para gradientBoosting: 907.16 segundos
+Melhores parâmetros para supportVectorClassifier: {'C': 100, 'gamma': 'scale', 'kernel': 'rbf'}
+Melhor score para supportVectorClassifier: 0.8924442741265887
+Relatório de classificação para supportVectorClassifier:
+              precision    recall  f1-score   support
+
+           0       0.93      0.90      0.92       356
+           1       0.76      0.81      0.78       132
+
+    accuracy                           0.88       488
+   macro avg       0.84      0.86      0.85       488
+weighted avg       0.88      0.88      0.88       488
+
+supportVectorClassifier - Acurácia: 0.8790983606557377
+supportVectorClassifier - Precisão: 0.8822167987302595
+supportVectorClassifier - Recall: 0.8790983606557377
+Tempo total para supportVectorClassifier: 1.22 segundos
+Melhores parâmetros para kNeighbors: {'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}
+Melhor score para kNeighbors: 0.9067999403887506
+Relatório de classificação para kNeighbors:
+              precision    recall  f1-score   support
+
+           0       0.93      0.87      0.90       356
+           1       0.71      0.83      0.77       132
+
+    accuracy                           0.86       488
+   macro avg       0.82      0.85      0.83       488
+weighted avg       0.87      0.86      0.87       488
+
+kNeighbors - Acurácia: 0.8627049180327869
+kNeighbors - Precisão: 0.873274384908441
+kNeighbors - Recall: 0.8627049180327869
+Tempo total para kNeighbors: 0.42 segundos
+Melhores parâmetros para decisionTree: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2, 'splitter': 'random'}
+Melhor score para decisionTree: 0.8702880500734496
+Relatório de classificação para decisionTree:
+              precision    recall  f1-score   support
+
+           0       0.92      0.85      0.89       356
+           1       0.67      0.81      0.73       132
+
+    accuracy                           0.84       488
+   macro avg       0.80      0.83      0.81       488
+weighted avg       0.85      0.84      0.84       488
+
+decisionTree - Acurácia: 0.8401639344262295
+decisionTree - Precisão: 0.854796831267493
+decisionTree - Recall: 0.8401639344262295
+Tempo total para decisionTree: 4.46 segundos
